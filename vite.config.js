@@ -9,7 +9,11 @@ export default defineConfig({
       external: [
         'bootstrap',
         'bootstrap/dist/css/bootstrap.min.css',
-        'react-bootstrap'
+        'react-bootstrap/Container',
+        'react-bootstrap/Nav',
+        'react-bootstrap/Navbar',
+        'react-bootstrap/NavDropdown',
+        'react-bootstrap/Table'
       ]
     }
   }
